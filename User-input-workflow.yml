@@ -1,0 +1,20 @@
+name: Start Workflow with User Input
+
+on:
+  workflow_dispatch:
+    inputs:
+      user_input:
+        description: 'User Input'
+        required: true
+
+jobs:
+  start-workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run workflow
+        run: |
+          echo "User Input: ${{ github.event.inputs.user_input }}"
+          # Add your workflow steps here based on the user input.

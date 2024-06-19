@@ -1,0 +1,1138 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "project": {
+      "type": "string"
+    },
+    "languages": {
+      "type": "string"
+    },
+    "run timestamp": {
+      "type": "string"
+    },
+    "Snyk": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Code Weakness Description": {
+              "type": "string"
+            },
+            "CWE#": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "string"
+                }
+              ]
+            },
+            "Severity": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "Code Weakness Description",
+            "CWE#",
+            "Severity"
+          ]
+        }
+      ]
+    },
+    "CodeQl": {
+      "type": "object"
+    },
+    "SonarQube": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "project",
+    "languages",
+    "run timestamp",
+    "Snyk",
+    "CodeQl",
+    "SonarQube"
+  ]
+}
