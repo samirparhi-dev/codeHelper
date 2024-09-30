@@ -1,0 +1,38 @@
+name: Snowflake Pipeline Schedule
+
+# Schedule to run daily at 12:00 AM (UTC)
+on:
+  schedule:
+    - cron: '0 0 * * *'
+
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  run-snowflake-pipeline:
+    runs-on: ubuntu-latest
+
+    steps:
+    # Step 1: Checkout the repository code
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    # Step 2: Set up Python environment
+    - name: Set up Python 3.x
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
+
+    # Step 3: Install dependencies
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install snowflake-connector-python pandas numpy
+
+    # Step 4: Run the Snowflake pipeline
+    - name: Run Snowflake Data Pipeline
+      env:
+        SNOWFLAKE_USER: ${{ secrets.SNOWFLAKE_USER }}
+        SNOWFLAKE_PASSWORD: ${{ secrets.SNOWFLAKE_PASSWORD }}
+        SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_ACCOUNT }}
+      run: |
+        python snowflake_pipeline.py
