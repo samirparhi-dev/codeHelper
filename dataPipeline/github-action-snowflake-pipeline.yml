@@ -1,4 +1,4 @@
-name: Snowflake Pipeline Schedule
+name: Schedule Snowflake
 
 # Schedule to run daily at 12:00 AM (UTC)
 on:

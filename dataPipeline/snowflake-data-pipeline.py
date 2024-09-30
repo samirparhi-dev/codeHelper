@@ -1,4 +1,5 @@
-# snowflake_pipeline.py
+# Author: Samir Ranjan Parhi
+# This is a python script for Scaraping Data from snowflake
 
 import snowflake.connector
 import pandas as pd
