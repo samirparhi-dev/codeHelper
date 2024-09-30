@@ -1,3 +1,5 @@
-# unsecWeather
-this is an Unsecured app which provide weather forecast 
+
 # codeHelper
+
+These are the Various Helper Script to Enhance my day-do-day job 😄
+
