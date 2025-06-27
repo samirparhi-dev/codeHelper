@@ -1,0 +1,48 @@
+name: Deploy Infrastructure with OpenTofu
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set up OpenTofu
+        uses: queo GmbH/opentofu-action@v1
+        with:
+          version: "latest"
+
+      - name: Authenticate to GCP
+        run: |
+          echo "${{ secrets.GCP_CREDENTIALS }}" > credentials.json
+        env:
+          GCP_CREDENTIALS: ${{ secrets.GCP_CREDENTIALS }}
+
+      - name: Set up environment variables
+        run: |
+          export GOOGLE_APPLICATION_CREDENTIALS="credentials.json"
+          export TF_LOG=INFO
+
+      - name: Acquire Lock
+        run: |
+          chmod +x scripts/acquire-lock.sh
+          ./scripts/acquire-lock.sh
+
+      - name: OpenTofu Init
+        run: tofu init
+
+      - name: OpenTofu Plan
+        run: tofu plan
+
+      - name: OpenTofu Apply
+        run: tofu apply -auto-approve
+
+      - name: Release Lock
+        run: |
+          chmod +x scripts/release-lock.sh
+          ./scripts/release-lock.sh
